@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./hw03styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <img src="../data/photo.jpg" alt="Photo icon" width="300">
+            <p>
+                Hello! My name is Mikunov Nazar. This is my new handmade website.
+            </p>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Videogames</li>
+                <li>Music</li>
+                <li>Tabletop games</li>
+                <li>Sword fighting</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Registration</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required><br>
+                <label for="country">Country:</label>
+                <select name="country" id="country" required>
+                    <option value="">Choose your country</option>
+                    <option value="kg">Kyrgyzstan</option>
+                    <option value="kz">Kazakhstan</option>
+                    <option value="us">USA</option>
+                    <option value="ru">Russia</option>
+                </select><br>
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to the terms</label><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section>
+            <h2>Product</h2>
+            <div class="product">
+                <img src="../data/ns2.jpg" alt="Product image">
+                <h3>Nintendo switch 2</h3>
+                <p>Price: $450.00</p>
+                <button>Buy</button>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <address style="color: blue;">
+            <p>Email: <a href="mailto:nazarmikunov@gmeil.com">nazarmikunov@gmeil.com</a><br>
+            <i style="font-size: 16px;">I live in Bishkek</i>
+            </p>
+        </address>
+    </footer>
+</body>
+</html>

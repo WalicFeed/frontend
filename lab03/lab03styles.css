@@ -1,0 +1,26 @@
+body {
+    color: red;
+}
+.wrapper p {
+    color: blueviolet;
+}
+.yellow {
+    color: aquamarine;
+}
+.yellow span {
+    color: yellow;
+    font-size: 40px;
+}
+.lorem {
+    color: aquamarine;
+}
+.lorem::first-letter {
+    color: red;
+    font-size: 70px;
+}
+.inputName {
+    background-color: brown;
+}
+input[type="password"] {
+    background-color: brown;
+}
